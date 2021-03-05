@@ -88,7 +88,7 @@ class Msg(QWidget):
         self.txt.setText(tt)
 
 if __name__ == '__main__':
-    #如何开机自动运行脚本请自行搜索
+    #如何开机自动运行脚本请自百度
     today = datetime.date.today()
     lunar = sxtwl.Lunar()
     cd = CountDown()
