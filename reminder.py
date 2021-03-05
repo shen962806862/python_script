@@ -88,9 +88,11 @@ class Msg(QWidget):
         self.txt.setText(tt)
 
 if __name__ == '__main__':
+    #如何开机自动运行脚本请自行搜索
     today = datetime.date.today()
     lunar = sxtwl.Lunar()
     cd = CountDown()
+    # 注：脚本运行需外挂一个txt文件，文件格式如下：帅哥-8.10-Lunar (Lunar为农历，Solar阳历) 每个一行
     data = linecache.getlines('../data/reminder.txt')
     msg = []
 
